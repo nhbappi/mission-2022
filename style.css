@@ -28,15 +28,15 @@ body{
 }
 .tittle-main{
     
-    border-left: 5px solid;
-    border-image: linear-gradient(rgb(0, 200, 255),rgb(255, 0, 123));
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(242, 92, 37),rgb(236, 103, 45));
     border-image-slice: 1;
     color: #333333;
     
 }
 .tittle-main h1{
     margin-left: 5px;
-    font-size: 50px;
+    font-size: 55px;
 }
 
 
@@ -145,7 +145,14 @@ body{
     margin-left: 20px;
 }
 
-
+.third-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-x: 95px;
+    background-position-y: 55px;
+   background-size: 120px;
+}
 .third-part{
     display: flex;
     margin-top: 80px;
@@ -184,7 +191,15 @@ body{
     background-color: #59cdff
 }
 
-
+.forth-section{
+    background-image: url(images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  background-position-x: 1140px;
+   
+    
+   background-size: 120px;
+}
 .forth-part{
     display: flex;
     margin-top: 80px
