@@ -1,0 +1,291 @@
+body{
+    font-family: system-ui, system-ui, sans-serif;
+    margin: 0px;
+}
+
+.header{
+   margin-left: 10px;
+}
+
+.header-part{
+    display: flex; 
+    margin-left: 40px;
+}
+
+.header-title{
+   margin-top: 40px;
+   margin-left: 100px;
+   width: 450px;
+}
+.header-title p{
+     font-size: 20px;
+     color: #3E3E3E;
+}
+.title-color{
+    color: #FFAD5A;
+}
+.header-title h1{
+    font-size: 50px;
+    border-left: 5px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+    color: #333333;
+    
+}
+
+.header-image img{
+    width: 370px;
+    margin-left: 200px;  
+    
+}
+
+.head-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none !important;
+    font-weight: bold;
+}
+.head-btn:hover{
+    background-color: #59cdff
+}
+
+.scroll{
+    margin-top:50px;
+}
+
+.second-title-main{
+    color: #13103A;
+    font-size: 40px;
+    font-weight:bold;
+    margin-top: 70px;
+    text-align: center;
+}
+.second-title{
+    color: #FFAD5A;
+}
+
+.second-part{
+    display: flex;
+}
+
+.second-part-1{
+    background-color: #d6f2f6;
+    margin: 30px;
+    padding: 10px;
+   width: 100%;
+    border-radius: 15px;
+    
+}
+.second-part-1:hover{
+  background-color: #4dd9ef;
+    
+}
+.second-part-1 img{
+    width: 40%;
+}
+.second-part-1 h1{
+    margin-left: 20px;
+}
+.second-part-1 p{
+    margin-left: 20px;
+}
+.second-part-2{
+    background-color: #f5d2da;
+    margin: 30px;
+    padding: 10px;
+    width: 100%;
+    border-radius: 15px;
+}
+.second-part-2:hover{
+    background-color: #ef93a9;
+      
+  }
+.second-part-2 img{
+    width: 40%;
+}
+.second-part-2 h1{
+    margin-left: 20px;
+}
+.second-part-2 p{
+    margin-left: 20px;
+}
+.second-part-3{
+    background-color: #FFF4D6;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 100%;
+}
+.second-part-3 img{
+    width: 40%;
+}
+.second-part-3:hover{
+    background-color: #eacc7b;
+      
+  }
+.second-part-3 h1{
+    margin-left: 20px;
+}
+.second-part-3 p{
+    margin-left: 20px;
+}
+
+
+.third-part{
+    display: flex;
+    margin-top: 80px;
+
+}
+.third-part-image img{
+    width: 70%;
+    background-image: url(images/shapes/shape-1.png);  
+
+    
+}
+.third-part-image{
+    margin-left: 150px;
+}
+
+.third-part-text{
+   margin-right: 150px;
+}
+.third-part-text h1{
+   font-size: 40px;
+   color: #333333;
+}
+
+.third-part-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none !important;
+    font-weight: bold;
+}
+.third-part-btn:hover{
+    background-color: #59cdff
+}
+
+
+.forth-part{
+    display: flex;
+    margin-top: 80px
+
+}
+
+
+.forth-part-image{
+    margin-left: 150px;
+}
+
+.forth-part-image img{
+    width: 70%;
+}
+
+.forth-part-image{
+    margin-left: 150px;
+}
+
+.forth-part-text{
+   margin-left: 150px;
+}
+.forth-part-text h1{
+   font-size: 40px;
+   color: #333333;
+}
+
+.forth-part-btn{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FF5959;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none !important;
+}
+
+.forth-part-btn:hover{
+background-color: #59cdff
+}
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #FF5959;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  .row{
+display: flex;
+
+  }
+  
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  .mobile{
+      color: red;
+      font-weight: bold;
+  }
+  
+ 
+
+
+
+
+.last-part{
+    background-color:#0B0D17;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top:80px;
+    padding:5px
+}
+.last-part h1{
+    
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+}
+.last-part p{
+    
+font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
