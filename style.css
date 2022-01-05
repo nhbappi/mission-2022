@@ -16,6 +16,7 @@ body{
    margin-top: 40px;
    margin-left: 100px;
    width: 450px;
+
 }
 .header-title p{
      font-size: 20px;
@@ -27,15 +28,17 @@ body{
 .header-title h1{
     font-size: 50px;
     border-left: 5px solid;
-    border-image: linear-gradient(blue,cyan);
+    border-image: linear-gradient(rgb(0, 200, 255),rgb(255, 0, 123));
     border-image-slice: 1;
     color: #333333;
     
 }
 
 .header-image img{
-    width: 370px;
+    width: 420px;
     margin-left: 200px;  
+
+    margin-top: 80px;
     
 }
 
